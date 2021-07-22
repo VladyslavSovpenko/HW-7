@@ -32,7 +32,7 @@ public class MainClass {
         Oval oval1 = new Oval("oval1", 1, 3);
         GetNameClass getNameClass = new GetNameClass();
         System.out.println(getNameClass.getNameMethod(oval1));
-
+        System.out.println("dfzg");
     }
 }
 
