@@ -1,19 +1,19 @@
-import Shape.SpatialShape.Cylinder;
-import Shape.SpatialShape.Quad;
-import Shape.SpatialShape.SpatialShape;
-import Shape.SpatialShape.Sphere;
-import Shape.StereoShape.Circle;
-import Shape.StereoShape.Oval;
-import Shape.StereoShape.Square;
-import Shape.StereoShape.StereoShape;
-
-import java.awt.*;
+import shape.Shape;
+import shape.spatialshape.Cylinder;
+import shape.spatialshape.Quad;
+import shape.spatialshape.SpatialShape;
+import shape.spatialshape.Sphere;
+import shape.stereoshape.Circle;
+import shape.stereoshape.Oval;
+import shape.stereoshape.Square;
+import shape.stereoshape.StereoShape;
 
 public class MainClass {
 
-
     public static void main(String[] args) throws Exception {
+
         ShapeHandler shapeHandler = new ShapeHandler();
+
         StereoShape circle = new Circle("Circle", 1);
         StereoShape oval = new Oval("Oval", 8, 4);
         StereoShape square = new Square("Square", 20);
@@ -29,15 +29,15 @@ public class MainClass {
         shapeHandler.BiggestStereoShape(stereoShapes);
         shapeHandler.BiggestSpatialShape(spatialShapes);
 
-        Oval oval1 = new Oval("oval1", 1, 3);
+        Quad quad1 = new Quad("quad1",3);
         GetNameClass getNameClass = new GetNameClass();
-        System.out.println(getNameClass.getNameMethod(oval1));
-        System.out.println("dfzg");
+        System.out.println(getNameClass.getNameMethod(quad1));
+
     }
 }
 
 class GetNameClass {
-    public String getNameMethod(StereoShape shape) {
+    public String getNameMethod(Shape shape) {
         return "The shape name will be : " + shape.getType();
     }
 }

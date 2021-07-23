@@ -1,11 +1,9 @@
-package Shape.StereoShape;
+package shape.stereoshape;
 
-import Interfaces.GetArea;
-import Shape.Shape;
+import interfaces.Area;
+import shape.Shape;
 
-import java.awt.geom.Area;
-
-public class StereoShape extends Shape implements GetArea {
+public abstract class StereoShape extends Shape implements Area {
     private double R;
     private double r;
     private double a;
@@ -14,20 +12,14 @@ public class StereoShape extends Shape implements GetArea {
         super(type);
         this.a = a;
     }
+
     public StereoShape(String type) {
         super(type);
     }
 
-    public StereoShape(String type, double R,double r){
+    public StereoShape(String type, double R, double r) {
         super(type);
         this.R = R;
         this.r = r;
-
-    }
-
-
-    @Override
-    public double Area() {
-        return 0;
     }
 }

@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69910f73-99ec-401e-aeb7-7e7a717805b2" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/shape/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shape/spatialshape/SpatialShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/GetNameClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/GetNameClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Interfaces/GetArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Interfaces/GetVolume.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/SpatialShape/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/SpatialShape/Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/SpatialShape/Quad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/SpatialShape/Quad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/SpatialShape/SpatialShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/SpatialShape/SpatialShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/SpatialShape/Sphere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/SpatialShape/Sphere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/StereoShape/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/StereoShape/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/StereoShape/Oval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/StereoShape/Oval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/StereoShape/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/StereoShape/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/Shape/StereoShape/StereoShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/Shape/StereoShape/StereoShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-7/ShapeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-7/ShapeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/GetArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/GetVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Volume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shape/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/SpatialShape/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shape/spatialshape/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/SpatialShape/Quad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shape/spatialshape/Quad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/SpatialShape/SpatialShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/SpatialShape/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shape/spatialshape/Sphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/StereoShape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shape/stereoshape/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/StereoShape/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shape/stereoshape/Oval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/StereoShape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shape/stereoshape/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape/StereoShape/StereoShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shape/stereoshape/StereoShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShapeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapeHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -80,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626954724687</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1626955056835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626955056835</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
