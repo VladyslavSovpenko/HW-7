@@ -1,5 +1,6 @@
 package interfaces;
 
 public interface Volume {
-    double getVolume();
+
+  double getVolume();
 }

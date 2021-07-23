@@ -10,34 +10,34 @@ import shape.stereoshape.StereoShape;
 
 public class MainClass {
 
-    public static void main(String[] args) throws Exception {
+  public static void main(String[] args) throws Exception {
 
-        ShapeHandler shapeHandler = new ShapeHandler();
+    ShapeHandler shapeHandler = new ShapeHandler();
 
-        StereoShape circle = new Circle("Circle", 1);
-        StereoShape oval = new Oval("Oval", 8, 4);
-        StereoShape square = new Square("Square", 20);
+    StereoShape circle = new Circle("Circle", 1);
+    StereoShape oval = new Oval("Oval", 8, 4);
+    StereoShape square = new Square("Square", 20);
 
-        StereoShape[] stereoShapes = new StereoShape[]{circle, oval, square};
+    StereoShape[] stereoShapes = new StereoShape[]{circle, oval, square};
 
-        SpatialShape quad = new Quad("Quad", 100);
-        SpatialShape cylinder = new Cylinder("cylinder", 8, 8);
-        SpatialShape sphere = new Sphere("Sphere", 8);
+    SpatialShape quad = new Quad("Quad", 100);
+    SpatialShape cylinder = new Cylinder("cylinder", 8, 8);
+    SpatialShape sphere = new Sphere("Sphere", 8);
 
-        SpatialShape[] spatialShapes = new SpatialShape[]{quad, sphere, cylinder};
+    SpatialShape[] spatialShapes = new SpatialShape[]{quad, sphere, cylinder};
 
-        shapeHandler.BiggestStereoShape(stereoShapes);
-        shapeHandler.BiggestSpatialShape(spatialShapes);
+    shapeHandler.BiggestStereoShape(stereoShapes);
+    shapeHandler.BiggestSpatialShape(spatialShapes);
 
-        Quad quad1 = new Quad("quad1",3);
-        GetNameClass getNameClass = new GetNameClass();
-        System.out.println(getNameClass.getNameMethod(quad1));
-
-    }
+    Quad quad1 = new Quad("quad1", 3);
+    GetNameClass getNameClass = new GetNameClass();
+    System.out.println(getNameClass.getNameMethod(quad1));
+  }
 }
 
 class GetNameClass {
-    public String getNameMethod(Shape shape) {
-        return "The shape name will be : " + shape.getType();
-    }
+
+  public String getNameMethod(Shape shape) {
+    return "The shape name will be : " + shape.getType();
+  }
 }

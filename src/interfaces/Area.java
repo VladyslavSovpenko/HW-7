@@ -1,5 +1,6 @@
 package interfaces;
 
 public interface Area {
-    double getArea();
+
+  double getArea();
 }

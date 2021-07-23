@@ -1,5 +1,6 @@
 package shape;
 
 public class Constant {
-    public final double Pi = 3.14;
+
+  public final double PI = 3.14;
 }
